@@ -8,7 +8,7 @@ import shutil
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 HEADER = 64
-HOST = "192.168.14.66"
+HOST = "192.168.14.66" # enter your own ip address 
 PORT = 3221
 
 server.bind((HOST, PORT))
